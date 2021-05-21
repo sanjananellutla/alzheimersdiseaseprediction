@@ -15,7 +15,8 @@ import pandas as pd
 filename = "/content/ADNIMERGE.csv"
 data = pd.read_csv(filename)
 
-shape(data)
+# Size of the dataset
+data.shape
 
 # Dropping missing values from target class
 
